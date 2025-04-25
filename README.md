@@ -1,5 +1,5 @@
 # SpringAi-SpringBoot
-SpringAi整合大模型实战
+SpringAiAlibaba整合SpringBoot大模型实战
 
 **环境**
 ```text
