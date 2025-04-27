@@ -1,0 +1,13 @@
+
+###
+# 流式调用
+GET http://localhost:10003/chat/stream
+Accept: application/json
+
+###
+
+# 简单调用
+GET http://localhost:10003/chat/simple
+Accept: application/json
+
+

@@ -33,16 +33,16 @@ import static org.springframework.ai.chat.client.advisor.AbstractChatMemoryAdvis
 
 @RestController
 @RequestMapping("/chat")
-public class HelloworldController {
+public class ChatController {
 
-	private static final String DEFAULT_PROMPT = "你是翰林院大学士，请帮我们解答问题！";
+	private static final String DEFAULT_PROMPT = "你是一名老师";
 
 	private final ChatClient dashScopeChatClient;
 
 	private final MessageChatMemoryAdvisor redisChatMemory;
 
 	// 也可以使用如下的方式注入 ChatClient
-	 public HelloworldController(ChatClient.Builder chatClientBuilder, @Qualifier("redisMessageChatMemoryAdvisor") MessageChatMemoryAdvisor redisChatMemory) {
+	 public ChatController(ChatClient.Builder chatClientBuilder, @Qualifier("redisMessageChatMemoryAdvisor") MessageChatMemoryAdvisor redisChatMemory) {
 	  	this.dashScopeChatClient = chatClientBuilder
 				.defaultSystem(DEFAULT_PROMPT)
 				 // 实现 Chat Memory 的 Advisor
