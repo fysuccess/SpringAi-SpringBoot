@@ -13,4 +13,5 @@ npm 11.3
 |- SpringAi-SpringBoot
 |-- flight-booking  智能航空购票系统
 |-- chat-demo  对话测试 
+|-- image-demo 文生图
 ```
