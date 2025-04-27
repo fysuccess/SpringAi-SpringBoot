@@ -10,6 +10,7 @@ npm 11.3
 
 **项目结构**
 ```text
-|-SpringAi-SpringBoot
-|--flight-booking  智能航空购票系统
+|- SpringAi-SpringBoot
+|-- flight-booking  智能航空购票系统
+|-- chat-demo  对话测试 
 ```
